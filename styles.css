@@ -10,12 +10,13 @@ body {
 header {
     background: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
 section {
@@ -28,6 +29,8 @@ section {
 
 section h2 {
     margin-top: 0;
+    font-size: 1.8em;
+    color: #333;
 }
 
 ul {
@@ -36,5 +39,19 @@ ul {
 }
 
 ul li {
-    margin: 5px 0;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+#projects ul ul {
+    padding-left: 20px;
 }
